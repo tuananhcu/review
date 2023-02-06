@@ -1,0 +1,19 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Kiến thức cơ bản cho người mới bắt đầu",
+      "description": "Kiến thức cơ bản dành cho người mới, không phân biệt bạn theo Fron-end, Back-end hay Devops"
+    },
+    {
+      "name": "Xây dựng web với NodeJS và ExpressJS",
+      "description": "Xây dựng web trong thực tế với NodeJS và ExpressJS",
+      "id": 2
+    },
+    {
+      "name": "Khóa học ReactJS",
+      "description": "Khóa học ReactJS cho người mới",
+      "id": 3
+    }
+  ]
+}

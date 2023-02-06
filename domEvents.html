@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML DOM</title>
+    <style>
+      ul {
+        display: none;
+      }
+      input[placeholder="Tìm kiếm"]:focus ~ ul {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- DOM Events -->
+    <!-- <h1 onclick="console.log(Math.random())">DOM Events</h1> -->
+    <!-- <h1 onclick="console.log(this)">DOM Events</h1>
+    <h2 onclick="console.log(this.innerText)">DOM Events 2</h2>
+    <h2 onclick="console.log(this)"><span> DOM Events 3 </span></h2> -->
+
+    <!-- Attribute Events -->
+    <h1>DOM Events 1</h1>
+    <h1>DOM Events 2</h1>
+    <h1>DOM Events 3</h1>
+
+    <input type="text" />
+    <input type="checkbox" />
+    <select>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+
+    <br />
+    <a href="https://f8.edu.vn" target="_blank"> Học lập trình</a>
+    <br />
+    <a href="https://google.com.vn" target="_blank">Tìm kiếm</a>
+    <br />
+    <input placeholder="Tìm kiếm" />
+    <ul>
+      <li>Javascript</li>
+      <li>PHP</li>
+      <li>Golang</li>
+    </ul>
+
+    <div>
+      DIV
+      <button>Click me!</button>
+    </div>
+
+    <script src="./domEvents.js"></script>
+    <script src="./domEvents2.js"></script>
+    <script src="./preventDefault.js"></script>
+    <script src="./eventListener.js"></script>
+  </body>
+</html>
